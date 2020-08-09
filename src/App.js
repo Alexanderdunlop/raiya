@@ -1,23 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import clothing from "./clothing.jpg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
+      <div className="banner">
+        <img src={clothing} />
+        <h5>Raiyas banner</h5>
+        <div className="links">
+          <a>link 1</a>
+          <a>link 2</a>
+          <a>link 3</a>
+        </div>
+      </div>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>Raiya is really cool</p>
+        <h1>I like RAIYA LOTS</h1>
+        <h3>xxx</h3>
       </header>
     </div>
   );
